@@ -47,6 +47,19 @@ switch(marks){
  * for each loop
  * while loop
  */
+for(var i = 0; i < 4; i++){
+  print(i);
+}
+var m =[1,2,3,4,5];
+for(var i in m){
+  print(i);
+}
+m.forEach((element) { 
+  print(element);
+});
 
-
+while(marks < 5){
+  print(marks);
+  marks++;
+}
 }
