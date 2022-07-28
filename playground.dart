@@ -1,22 +1,24 @@
+import 'dart:_js_primitives';
 import 'dart:io'; //importing the dart library
 
 /**
  * Mian method
  */
 void main() {
-  /*
+  
   var firstName = "Taimoor" ;
   String lastName = "Khan";
   // Both are same
   print(firstName + " " + lastName);
   print("$firstName $lastName");
 
-  */
+  
   //Getting Input from User
   stdout.writeln("Enter your name: ");
   // you can use string instead of var
   var name = stdin.readLineSync();
   stdout.writeln("Hello $name");
+  
   /**
    * Data types in Dart
    * int
@@ -25,6 +27,8 @@ void main() {
    * bool
    * dynamic
    */
+
+  
   int marks = 100;
   print("Marks: $marks");
   double percentage = 90.5;
@@ -62,4 +66,26 @@ void main() {
   print("$s3");
 
   print("$s4");
+
+
+//MultiLine String
+String multiLine = """Hello 
+World""";
+
+int num = 32;
+String con2 = "Hello $num";
+
+//Type Casting
+String str = "32.25";
+//int num1 = int.parse(str);
+double num1 = double.parse(str);
+print("$num1");
+
+// int/ double to string
+String str1 = num1.toString();
+print("$str1");
+str1  = num.toStringAsFixed(1) ;
+print("$str1");
+
+
 }
