@@ -96,8 +96,4 @@ Map name9 = {"John":1, "Doe":2, "Smith":3}; //  Save Only String in Map
 var gify = Map();
 
 
-
-
-
-
 }
