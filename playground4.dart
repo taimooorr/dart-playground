@@ -9,6 +9,19 @@ class Person {
   
   late String type;
   late int age;
+
+  //seter and getter is used to set and get the value of a variable.
+  String get getType1 {
+    return type;
+  }
+  String get getType => type;
+
+   set setAge(int age) {
+    this.age = age;
+  } 
+  set setType(String type) {
+    this.type = type;
+  }
   
 // Constructor 
 Person(String type, int age) {
