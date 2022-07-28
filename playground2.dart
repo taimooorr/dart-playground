@@ -62,4 +62,41 @@ while(marks < 5){
   print(marks);
   marks++;
 }
+/**
+ * List
+ * Set
+ * Map/Gift
+ */
+
+List name  = ["John", "Doe", "Smith",1]; //  Save Every Type of Data in List
+
+//Static Type List 
+List<String> name2 = ["John", "Doe", "Smith"]; //  Save Only String in List
+List<int> name3 = [1,2,3,4,5]; //  Save Only Integer in List
+
+// Constant List
+List<String> name4 = const ["John", "Doe", "Smith"]; //  Values cannot be Changed
+final List<String> name5 = ["John", "Doe", "Smith"]; //  Save Only String in List
+
+//set is unordered collection of unique elements
+
+Set<int> nus ={}; // when wannna create empty set always specify its type
+
+
+Set name6 = {"John", "Doe", "Smith",2}; 
+Set<String> name7 = {"John", "Doe", "Smith"};//  Save Only String in Set
+//Constant Set 
+
+Set name8 = const {"John", "Doe", "Smith",}; //  Values cannot be Changed
+
+// Maps and Gifts
+Map name9 = {"John":1, "Doe":2, "Smith":3}; //  Save Only String in Map
+
+
+
+
+
+
+
+
 }
