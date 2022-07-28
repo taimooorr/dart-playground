@@ -66,4 +66,6 @@ void main() {
   person2.display();
   var person = Taimoor('TAIMOOR', 'type', 12);
   person.display();
+  person.getType1;
+  person.setAge = 12;
 }
