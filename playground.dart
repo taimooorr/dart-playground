@@ -1,4 +1,4 @@
-import 'dart:_js_primitives';
+
 import 'dart:io'; //importing the dart library
 
 /**
@@ -46,7 +46,7 @@ void main() {
   data = 100;
   print("Dynamic data: $data");
   // var is used to accept any type of data and its data type is not known at compile time
-  var lastName = "Taimoor";
+  var lastName1 = "Taimoor";
   print("Last Name: $lastName");
 
 //  Single qoute and double qoute are same unless in some situations below code represent that
