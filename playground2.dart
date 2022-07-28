@@ -92,7 +92,8 @@ Set name8 = const {"John", "Doe", "Smith",}; //  Values cannot be Changed
 // Maps and Gifts
 Map name9 = {"John":1, "Doe":2, "Smith":3}; //  Save Only String in Map
 
-
+//empty map 
+var gify = Map();
 
 
 
